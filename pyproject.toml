@@ -1,0 +1,49 @@
+[build-system]
+
+requires = ["setuptools>=61.0"]
+
+build-backend = "setuptools.build_meta"
+
+
+[project]
+
+name = "blamegame"
+
+version = "0.0.1"
+
+authors = [
+	{ name="Ryan L. Boyd", email="ryan@ryanboyd.io" },
+]
+
+description = "Coming soon..."
+
+readme = "README.MD"
+
+requires-python = ">=3.10"
+
+dependencies=["tqdm>=4.66.5",
+              "nltk>=3.9.1",
+              "sentence-transformers>=3.1.1",
+              "scikit-learn>=1.5.2",
+              "joblib>=1.4.2"]
+
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+packages = ["blamegame"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+"blamegame" = ["models/*"]
+
+
+[project.urls]
+
+Homepage = "https://github.com/ryanboyd"
+
+Issues = "https://github.com/ryanboyd"
