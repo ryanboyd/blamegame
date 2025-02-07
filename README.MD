@@ -69,7 +69,7 @@ The model outputs both classification labels (0 or 1) and probability scores for
 | Sentence                                  | Self-Disp. (Probability) | Self-Sit. (Probability) | Other-Disp. (Probability) | Other-Sit. (Probability) |
 |-------------------------------------------|------------|----------|------------|-----------|
 | "She failed the test because she was unlucky." | 0.00       | 0.00     | 0.41       | 0.75      |
-| "I failed the exam because I didn't try hard enough."  | 0.99       | 0.05     | 0.0.00       | 0.00      |
+| "I failed the exam because I didn't try hard enough."  | 0.99       | 0.05     | 0.00       | 0.00      |
 
 
 ### Overall/Average Predictions
