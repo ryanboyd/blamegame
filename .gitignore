@@ -163,3 +163,6 @@ cython_debug/
 test_data
 *.bat
 *.ipynb
+
+# Refrain from pushing AttributioNet given its file size
+AttributioNet/

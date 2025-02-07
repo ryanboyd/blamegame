@@ -9,13 +9,13 @@ build-backend = "setuptools.build_meta"
 
 name = "blamegame"
 
-version = "0.0.1"
+version = "0.9.0"
 
 authors = [
 	{ name="Ryan L. Boyd", email="ryan@ryanboyd.io" },
 ]
 
-description = "Coming soon..."
+description = "BlameGame is a Python package for detecting internal/external (dispositional/situational) attributions in text."
 
 readme = "README.MD"
 
@@ -23,9 +23,8 @@ requires-python = ">=3.10"
 
 dependencies=["tqdm>=4.66.5",
               "nltk>=3.9.1",
-              "sentence-transformers>=3.1.1",
-              "scikit-learn>=1.5.2",
-              "joblib>=1.4.2"]
+              "transformers>=4.48.2",
+              "torch>=2.5.1"]
 
 classifiers = [
 	"Programming Language :: Python :: 3",
@@ -38,12 +37,8 @@ package-dir = { "" = "src" }
 packages = ["blamegame"]
 include-package-data = true
 
-[tool.setuptools.package-data]
-"blamegame" = ["models/*"]
-
-
 [project.urls]
 
-Homepage = "https://github.com/ryanboyd"
+Homepage = "https://github.com/ryanboyd/blamegame"
 
-Issues = "https://github.com/ryanboyd"
+Issues = "https://github.com/ryanboyd/blamegame/issues"
