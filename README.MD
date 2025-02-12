@@ -33,7 +33,9 @@ from blamegame.BlameGame import AttributionAnalyzer
 analyzer = AttributionAnalyzer()
 ```
 
-### 2. Analyze Text
+After importing the package and initializing the `AttributionAnalyzer()` class, you can process individual texts:
+
+### 2a. Analyze Text
 
 ```python
 text = "She failed the test because she was unlucky."
@@ -41,7 +43,9 @@ sentence_results, overall_results = analyzer.process_text(text)
 print(sentence_results)
 ```
 
-### 3. Analyze a CSV File
+... or batch process texts in a CSV file:
+
+### 2b. Analyze a CSV File
 
 ```python
 analyzer.process_csv(input_csv="data.csv", row_id_col="ID", text_col="Text", output_dir="attribution-results/")
