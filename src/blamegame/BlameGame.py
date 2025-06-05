@@ -113,7 +113,7 @@ class AttributionAnalyzer:
 
         return sentence_results, overall_results
 
-    def process_csv(self, input_csv, row_id_col, text_col, output_dir="output"):
+    def process_csv(self, input_csv, row_id_col, text_col, file_encoding="utf-8", output_dir="output"):
         """
         Process a CSV file containing text data, classifying each entry and saving results.
         :param input_csv: The path of the CSV file that you would like to analyze
@@ -131,8 +131,8 @@ class AttributionAnalyzer:
             os.makedirs(output_dir, exist_ok=True)
 
         with open(input_csv, 'r', encoding='utf-8') as infile, \
-                open(sentence_predictions_filename, 'w', encoding='utf-8', newline='') as sent_prediction_outfile, \
-                open(overall_predictions_filename, 'w', encoding='utf-8', newline='') as overall_prediction_outfile:
+                open(sentence_predictions_filename, 'w', encoding=file_encoding, newline='') as sent_prediction_outfile, \
+                open(overall_predictions_filename, 'w', encoding=file_encoding, newline='') as overall_prediction_outfile:
 
             reader = csv.DictReader(infile)
             sentence_prediction_writer = csv.writer(sent_prediction_outfile)
