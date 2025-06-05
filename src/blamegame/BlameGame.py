@@ -130,7 +130,7 @@ class AttributionAnalyzer:
         if not os.path.exists(output_dir):
             os.makedirs(output_dir, exist_ok=True)
 
-        with open(input_csv, 'r', encoding='utf-8') as infile, \
+        with open(input_csv, 'r', encoding=file_encoding) as infile, \
                 open(sentence_predictions_filename, 'w', encoding=file_encoding, newline='') as sent_prediction_outfile, \
                 open(overall_predictions_filename, 'w', encoding=file_encoding, newline='') as overall_prediction_outfile:
 
