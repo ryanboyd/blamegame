@@ -101,7 +101,23 @@ These dependencies are installed automatically when using `pip install blamegame
 
 ## 🎓 Citation
 
-Coming soon 😄
+```bibtex
+@article{telidevara_cultural_2026,
+	title = {A cultural explanation for parole decisions in the {United} {States}},
+	volume = {5},
+	issn = {2752-6542},
+	url = {https://doi.org/10.1093/pnasnexus/pgag193},
+	doi = {10.1093/pnasnexus/pgag193},
+	abstract = {Racial disparities in discretionary parole decisions persist, yet their cultural underpinnings remain poorly understood. The US justice system, shaped by White American cultural norms, may implicitly favor parole candidates who explain their crimes through dispositional rather than situational attributions. Importantly, however, findings from studies of cultural psychology suggest that while White Americans tend to frame behavior in dispositional terms, Black, Hispanic, and East Asian Americans are more likely to acknowledge situational contributors. Across four studies, we tested whether these attributional differences can contribute to racial disparities in parole. In studies 1 and 2 (total n = 588), White American mock parole candidates were more likely to use dispositional attributions to explain their hypothetical crimes, while those from racial and cultural minorities either showed no preference or favored situational explanations. In study 3 (n = 512), White American mock parole commissioners perceived candidates providing dispositional (vs. situational) explanations about their crimes as less likely to reoffend. In study 4, analyzing 183 real parole hearings via natural language processing methods, we found that candidates granted parole used dispositional framing of their past criminal offenses more often. These findings highlight a cultural mismatch between minority parole candidates and the expectations of the US justice system, potentially perpetuating racial disparities. Addressing this misalignment may offer a new pathway for reducing systemic bias in discretionary parole decisions.},
+	number = {7},
+	urldate = {2026-07-01},
+	journal = {PNAS Nexus},
+	author = {Telidevara, Amrita Kaushik and Boyd, Ryan L and Park, BoKyung},
+	month = jul,
+	year = {2026},
+	pages = {pgag193},
+}
+```
 
 
 ---
